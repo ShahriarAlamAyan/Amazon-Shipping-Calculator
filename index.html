@@ -7,10 +7,7 @@
 </head>
 <body>
     <p>Amazon Shipping Calculator</p>
-<input type="number" placeholder="Cost of order" class="js-cost-input" onkeydown="console.log(event.key);
-    if (event.key === 'Enter') {
-        costInput()
-    }
+<input type="number" placeholder="Cost of order" class="js-cost-input" onkeydown="keyDownCalculate(event)
 ">
 <button onclick="costInput()">Calculate</button>
 <p class="js-total-cost"></p>

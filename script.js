@@ -14,4 +14,11 @@ function costInput() {
 }
 
 
+function keyDownCalculate (event) {
+    if (event.key === 'Enter') {
+        costInput()
+    }
+}
+
+
 //6:29:00
